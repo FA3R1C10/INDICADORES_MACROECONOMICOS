@@ -1,0 +1,104 @@
+# Bytecode e cache do Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ambientes virtuais
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Variáveis de ambiente e segredos
+.env
+.env.*
+.python-version
+
+# Logs e instaladores
+*.log
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Testes e cobertura
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Tipagem/checadores
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+
+# Jupyter e IPython
+.ipynb_checkpoints
+profile_default/
+ipython_config.py
+
+# Build/Distribuição
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+*.manifest
+*.spec
+
+# Documentação
+docs/_build/
+site/
+
+# Frameworks comuns
+# Django
+*.log
+local_settings.py
+db.sqlite3
+# Flask
+instance/
+.webassets-cache
+# Scrapy
+.scrapy
+# PyBuilder
+target/
+
+# IDEs/Editores
+# VS Code: ignore tudo, exceto arquivos úteis de workspace
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# PyCharm/JetBrains (opcional: pode ignorar tudo)
+.idea/
+
+# SOs
+.DS_Store
+Thumbs.db
+
+# Depuração Cython
+cython_debug/
